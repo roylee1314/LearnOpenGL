@@ -8,7 +8,7 @@
 #include <GLFW/glfw3.h>
 
 
-#include "HelloTriangle.h"
+#include "Transformations.h"
 
 // Function prototypes
 void key_callback(GLFWwindow* window, int key, int scancode, int action, int mode);
@@ -42,7 +42,7 @@ int main()
 	// Define the viewport dimensions
 	glViewport(0, 0, WIDTH, HEIGHT);
 
-	auto hello = HelloTriangle();
+	auto hello = Transformations();
 
 
 	// Game loop
@@ -55,7 +55,7 @@ int main()
 		// Clear the colorbuffer
 		glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
 		glClear(GL_COLOR_BUFFER_BIT);
-		hello.drawTriangleWithTime();
+		hello.draw();
 		// Swap the screen buffers
 		glfwSwapBuffers(window);
 	}

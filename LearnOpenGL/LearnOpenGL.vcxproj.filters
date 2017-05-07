@@ -27,10 +27,10 @@
     <ClCompile Include="HelloTriangle.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Entry.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="Transformations.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -41,6 +41,12 @@
     <None Include="triangle.frag">
       <Filter>源文件\ps</Filter>
     </None>
+    <None Include="transformations.frag">
+      <Filter>源文件\ps</Filter>
+    </None>
+    <None Include="transformations.vert">
+      <Filter>源文件\vs</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HelloTriangle.h">
@@ -49,8 +55,16 @@
     <ClInclude Include="Shader.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Entry.h">
+    <ClInclude Include="Transformations.h">
       <Filter>头文件</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="container.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="awesomeface.png">
+      <Filter>资源文件</Filter>
+    </Image>
   </ItemGroup>
 </Project>
