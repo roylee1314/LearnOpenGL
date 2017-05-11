@@ -71,25 +71,45 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="colors.cpp" />
+    <ClCompile Include="CoordSystem.cpp" />
     <ClCompile Include="HelloTriangle.cpp" />
     <ClCompile Include="HelloWindow.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MainWindow.cpp" />
+    <ClCompile Include="Textures.cpp" />
     <ClCompile Include="Transformations.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="coordsystem.frag" />
+    <None Include="coordsystem.vert" />
+    <None Include="lamp.frag" />
+    <None Include="lamp.vert" />
+    <None Include="lighting.frag" />
+    <None Include="lighting.vert" />
+    <None Include="textures.frag" />
+    <None Include="textures.vert" />
     <None Include="transformations.frag" />
     <None Include="transformations.vert" />
     <None Include="triangle.frag" />
     <None Include="triangle.vert" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BookCamera.hpp" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="CoordSystem.h" />
     <ClInclude Include="HelloTriangle.h" />
+    <ClInclude Include="MainWindow.h" />
     <ClInclude Include="Shader.h" />
+    <ClInclude Include="Textures.h" />
     <ClInclude Include="Transformations.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="awesomeface.png" />
     <Image Include="container.jpg" />
+    <Image Include="day.jpg" />
+    <Image Include="night.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

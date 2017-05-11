@@ -33,6 +33,21 @@
     <ClCompile Include="Transformations.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CoordSystem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Textures.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="colors.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="triangle.vert">
@@ -47,6 +62,30 @@
     <None Include="transformations.vert">
       <Filter>源文件\vs</Filter>
     </None>
+    <None Include="coordsystem.frag">
+      <Filter>源文件\ps</Filter>
+    </None>
+    <None Include="coordsystem.vert">
+      <Filter>源文件\vs</Filter>
+    </None>
+    <None Include="textures.frag">
+      <Filter>源文件\ps</Filter>
+    </None>
+    <None Include="textures.vert">
+      <Filter>源文件\vs</Filter>
+    </None>
+    <None Include="lighting.frag">
+      <Filter>源文件\ps</Filter>
+    </None>
+    <None Include="lamp.frag">
+      <Filter>源文件\ps</Filter>
+    </None>
+    <None Include="lighting.vert">
+      <Filter>源文件\vs</Filter>
+    </None>
+    <None Include="lamp.vert">
+      <Filter>源文件\vs</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HelloTriangle.h">
@@ -58,12 +97,33 @@
     <ClInclude Include="Transformations.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="CoordSystem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Textures.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BookCamera.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="container.jpg">
       <Filter>资源文件</Filter>
     </Image>
     <Image Include="awesomeface.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="day.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="night.jpg">
       <Filter>资源文件</Filter>
     </Image>
   </ItemGroup>

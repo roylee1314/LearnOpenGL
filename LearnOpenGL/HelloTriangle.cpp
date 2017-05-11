@@ -32,4 +32,5 @@ int HelloTriangle::drawTriangleWithTime()
 
 HelloTriangle::~HelloTriangle()
 {
+	
 }
